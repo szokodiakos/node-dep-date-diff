@@ -1,0 +1,51 @@
+{
+  "root": true,
+  "extends": [
+    "emarsys"
+  ],
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "globals": {
+    "expect": true,
+    "context": true,
+    "inject": true
+  },
+  "rules": {
+    "security/detect-object-injection": 0,
+    "security/detect-non-literal-fs-filename": 0,
+
+    "no-var": 1,
+    "func-style": [2, "declaration", { "allowArrowFunctions": true }],
+    "generator-star-spacing": 2,
+    "max-len": [
+      2,
+      {
+        "code": 120,
+        "ignoreComments": true,
+        "tabWidth": 2
+      }
+    ],
+    "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
+    "radix": 1,
+    "require-yield": 0,
+    "newline-per-chained-call": 1,
+    "dot-location": [2, "property"],
+    "indent": [2, 2, {
+      "SwitchCase": 1,
+      "MemberExpression": 1,
+      "FunctionDeclaration": {"body": 1, "parameters": 1},
+      "FunctionExpression": {"body": 1, "parameters": 1},
+      "CallExpression": {"arguments": 1},
+      "ArrayExpression": 1,
+      "ObjectExpression": 1
+    }],
+
+    "no-unused-expressions": 0,
+
+    "no-use-before-define": [2, { "functions": false }], // deprecated?
+    "no-eq-null": 2 // deprecated?
+  }
+}

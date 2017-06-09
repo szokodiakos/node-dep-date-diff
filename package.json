@@ -1,0 +1,50 @@
+{
+  "name": "dep-date-diff",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=5.12.0"
+  },
+  "bin": {
+    "dep-date-diff": "bin/dep-date-diff",
+    "ddd": "bin/dep-date-diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szokodiakos/node-dep-date-diff.git"
+  },
+  "keywords": [
+    "dependency",
+    "date",
+    "diff",
+    "difference"
+  ],
+  "author": "Akos Szokodi <akos@codingsans.com>",
+  "contributors": [
+    "LaTotty <latotty@codingsans.com>",
+    "kapa <kapa@elte.hu>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szokodiakos/node-dep-date-diff/issues"
+  },
+  "homepage": "https://github.com/szokodiakos/node-dep-date-diff#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cli-table": "^0.3.1",
+    "co": "^4.6.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "npm": ">=2",
+    "progress": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-emarsys": "4.0.0"
+  }
+}
