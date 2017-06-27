@@ -13,13 +13,14 @@ dep-date-diff [options] # or use ddd alias
     -h, --help                   output usage information
     -V, --version                output the version number
     -S --sort [sort properties]  Sorts the table elements, add items in a comma separated list
-
+    -O --only-outdated           Only show dependencies which are out of date
 
   Examples:
 
     $ dep-date-diff
     $ dep-date-diff --sort dateDiff
     $ dep-date-diff --sort dateDiff,usedVersionDate
+    $ dep-date-diff --only-outdated
 ```
 
 Sample output
