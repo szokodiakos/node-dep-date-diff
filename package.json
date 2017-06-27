@@ -1,6 +1,6 @@
 {
   "name": "dep-date-diff",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Outputs all installed packages in a table (or JSON) with the release date of the currently installed version and latest available version.",
   "main": "index.js",
   "scripts": {
